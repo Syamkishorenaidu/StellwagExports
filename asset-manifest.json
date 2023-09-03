@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.js": "/StellwagExports/static/js/main.f4d864a9.js",
+    "static/media/containers.jpg": "/StellwagExports/static/media/containers.dca689f485dc8bf64b9d.jpg",
+    "static/media/Image8.jpeg": "/StellwagExports/static/media/Image8.6eef1b91c7c861e09e08.jpeg",
+    "static/media/Image7.jpeg": "/StellwagExports/static/media/Image7.3e2e3fb015d066bb7a34.jpeg",
+    "static/media/Image6.jpeg": "/StellwagExports/static/media/Image6.ad08e50fc813df266747.jpeg",
+    "static/media/Image3.jpeg": "/StellwagExports/static/media/Image3.90513b2469737f4428af.jpeg",
+    "static/media/Image5.jpeg": "/StellwagExports/static/media/Image5.93931c653bde70266f54.jpeg",
+    "static/media/Image4.jpeg": "/StellwagExports/static/media/Image4.e877345d32275de12cf9.jpeg",
+    "static/media/Image1.jpeg": "/StellwagExports/static/media/Image1.126711949c1ca65c5954.jpeg",
+    "static/media/Image2.jpeg": "/StellwagExports/static/media/Image2.830acb34f0753c3476c1.jpeg",
+    "static/media/shipments.jpg": "/StellwagExports/static/media/shipments.aab00e5d17aa8f6b34a1.jpg",
+    "static/media/sasi.jpeg": "/StellwagExports/static/media/sasi.cacead28abfb37d5ac4c.jpeg",
+    "static/media/quartz.jpg": "/StellwagExports/static/media/quartz.c3cf379a5bd08ada3e89.jpg",
+    "static/media/team-illustration-2.svg": "/StellwagExports/static/media/team-illustration-2.76aa0427e037826d4453f8791ee544e3.svg",
+    "static/media/dot-pattern.svg": "/StellwagExports/static/media/dot-pattern.ee6f4f0e6654d6e38850896165f9dc36.svg",
+    "static/media/design-illustration.svg": "/StellwagExports/static/media/design-illustration.415c277c5396f5d93e398f34f14d8267.svg",
+    "index.html": "/StellwagExports/index.html",
+    "static/media/twitter-icon.svg": "/StellwagExports/static/media/twitter-icon.828ecd04e4d4a4b4704330d1b8b1ebb9.svg",
+    "static/media/svg-decorator-blob-5.svg": "/StellwagExports/static/media/svg-decorator-blob-5.3175ec4088eed43061604a370e074787.svg",
+    "static/media/svg-decorator-blob-1.svg": "/StellwagExports/static/media/svg-decorator-blob-1.882b52f533a5f881fbac3178df042bb0.svg",
+    "static/media/svg-decorator-blob-8.svg": "/StellwagExports/static/media/svg-decorator-blob-8.46d53f6b637ec792eff69fa98170e560.svg",
+    "static/media/svg-decorator-blob-7.svg": "/StellwagExports/static/media/svg-decorator-blob-7.04fa60c9416090a003233f93c9de14b1.svg",
+    "static/media/youtube-icon.svg": "/StellwagExports/static/media/youtube-icon.10cce4d9ddf73bc36fc6b15d5639c0ff.svg",
+    "static/media/logo.svg": "/StellwagExports/static/media/logo.983fdc714f6fcb085fd0d0f08a213765.svg",
+    "static/media/facebook-icon.svg": "/StellwagExports/static/media/facebook-icon.8f6512c4ee4f21763666f0f3b69d970d.svg",
+    "main.f4d864a9.js.map": "/StellwagExports/static/js/main.f4d864a9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f4d864a9.js"
+  ]
+}
