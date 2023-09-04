@@ -1,8 +1,8 @@
 {
-  "name": "stellweg_export",
+  "name": "stellwag_exports",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Syamkishorenaidu.github.io/StellwagExports",
+  "homepage": "https://syamkishorenaidu.github.io",
   "dependencies": {
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.11.1",
