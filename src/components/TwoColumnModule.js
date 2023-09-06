@@ -10,11 +10,17 @@ import { ReactComponent as SvgDecoratorBlob2 } from "../images/dot-pattern.svg";
 import DesignIllustration from "../images/design-illustration.svg";
 import { Subheading } from "./misc/Headings";
 
+import GmailIcon from "../images/gmail.png";
+import PhoneIcon from "../images/phone.png";
+
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
 const LeftColumn = tw.div`relative lg:w-6/12 lg:pr-12 flex-shrink-0 text-center lg:text-left`;
 const RightColumn = tw.div`relative mt-12 lg:mt-0 flex flex-col justify-center`;
-const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
+const HighlightedText = tw.span`bg-blue-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
+
+const LogoContainer = tw.div`flex items-center justify-center md:justify-start`;
+const LogoImg = tw.img`w-8`;
 
 const Heading = tw.h1`font-black text-3xl md:text-5xl leading-snug max-w-3xl`;
 const Paragraph = tw.p`my-5 lg:my-8 text-sm lg:text-base font-medium text-gray-600 max-w-lg mx-auto lg:mx-0`;
@@ -44,10 +50,22 @@ export default ({
           <LeftColumn>
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>
-            <Heading style={{ fontSize: "30px" }}>
-              Contact:&nbsp;&nbsp;&nbsp;
-              <HighlightedText>+91-9160345004</HighlightedText>
+            {/* <Heading style={{ fontSize: "30px" }}>
+              &nbsp;Contact:&nbsp;&nbsp;&nbsp;
+              <HighlightedText>
+                +91-9160345004
+                <br />
+                +91-9581095890
+              </HighlightedText>
             </Heading>
+            <br />
+            <br />
+            <Heading style={{ fontSize: "30px" }}>
+              &nbsp;Mail:&nbsp;&nbsp;&nbsp;
+              <HighlightedText>
+                <a href="mailto:stellwagie@gmail.com">stellwagie@gmail.com</a>
+              </HighlightedText>
+            </Heading> */}
           </LeftColumn>
           <RightColumn>
             <IllustrationContainer>
@@ -60,4 +78,11 @@ export default ({
       </Container>
     </>
   );
+};
+
+const style = {
+  backgroundImage:
+    "linear-gradient(-45deg, green 33.33%, white 33.33%, white 66.67%, blue 66.67%)",
+  backgroundSize: "100%, 100%",
+  color: "black",
 };

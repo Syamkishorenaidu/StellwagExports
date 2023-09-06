@@ -47,7 +47,7 @@ const Value = tw.div`font-bold text-lg sm:text-xl lg:text-2xl text-secondary-500
 const Key = tw.div`font-medium text-primary-700`;
 
 export default ({
-  subheading = "Our Expertise",
+  subheading = "",
   heading = (
     <>
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>

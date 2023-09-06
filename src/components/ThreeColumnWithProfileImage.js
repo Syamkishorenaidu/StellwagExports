@@ -34,7 +34,7 @@ export default ({
     {
       imageSrc: SasiAnnaImg,
       quote:
-        "Meet our CEO, a B.Tech graduate with an unyielding commitment to excellence. His dedication drives Stellwag Exports to new heights, making us a global leader in Quartz exports.",
+        "Meet our CEO, a B.Tech graduate with an unyielding commitment to excellence. His dedication drives Stellwag Quartz Exports to new heights, making us a global leader in Quartz exports.",
       customerName: "Sasi Kiran Reddy [CEO]",
     },
   ],

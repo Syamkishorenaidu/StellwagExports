@@ -5,6 +5,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import { PrimaryButton as PrimaryButtonBase } from "./misc/Buttons.js";
 
 import LogoImage from "../images/logo.svg";
+import GmailIcon from "../images/gmail.png";
+import PhoneIcon from "../images/phone.png";
 import { ReactComponent as FacebookIcon } from "../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../images/youtube-icon.svg";
@@ -56,23 +58,36 @@ export default () => {
       <Content>
         <ThreeColRow>
           <LogoContainer>
-            <LogoImg src={LogoImage} />
-            <LogoText>Stellwag Exports</LogoText>
+            <LogoImg src={PhoneIcon} />
+            <h4>
+              <a style={{ marginLeft: "10px" }} href="tel:+919160345004">
+                +91 9160345004,
+              </a>
+            </h4>
+            <h4>
+              <a style={{ marginLeft: "10px" }} href="tel:+919581095890">
+                +91 9581095890
+              </a>
+            </h4>
           </LogoContainer>
+          {/* <LogoContainer>
+            <LogoImg src={LogoImage} />
+            <LogoText>Stellwag Quartz Exports</LogoText>
+          </LogoContainer> */}
           <CopywrightNotice>
             &copy; Crafting Excellence with Quartz. All Rights Reserved.
           </CopywrightNotice>
-          <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
-              <FacebookIcon />
-            </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
-            </SocialLink>
-            <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
-            </SocialLink>
-          </SocialLinksContainer>
+          <LogoContainer>
+            <LogoImg src={GmailIcon} />
+            <h4>
+              <a
+                style={{ marginLeft: "10px" }}
+                href="mailto:stellwagie@gmail.com"
+              >
+                stellwagie@gmail.com
+              </a>
+            </h4>
+          </LogoContainer>
         </ThreeColRow>
       </Content>
     </Container>

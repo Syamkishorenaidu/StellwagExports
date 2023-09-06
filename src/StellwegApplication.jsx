@@ -14,7 +14,7 @@ import Containers from "./images/containers.jpg";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
-  const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
+  const HighlightedText = tw.span`bg-blue-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const Description = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-4xl`;
   return (
@@ -27,10 +27,10 @@ export default () => {
         imageDecoratorBlob={true}
       />
       <MainFeature
-        subheading={<Subheading>Established Since 2022</Subheading>}
+        subheading={<Subheading></Subheading>}
         heading={
           <>
-            Stellwag Quartz Exports 
+            Stellwag Mining 
             <wbr /> <HighlightedText>Bridging Excellence</HighlightedText>
           </>
         }
@@ -51,15 +51,7 @@ export default () => {
         statistics={[]}
       />
       {/* TabGrid Component also accepts a tabs prop to customize the tabs and its content directly. Please open the TabGrid component file to see the structure of the tabs props.*/}
-      <TabGrid
-        heading={
-          <>
-            Checkout our <HighlightedText>material.</HighlightedText>
-          </>
-        }
-      />
-
-      <MainFeature
+       <MainFeature
         heading={<>Why <HighlightedText>Choose Us ?</HighlightedText></>}
         description={
           <Description>
@@ -87,6 +79,15 @@ export default () => {
           }
         ]}
       />
+      <TabGrid
+        heading={
+          <>
+            Checkout our <HighlightedText>material.</HighlightedText>
+          </>
+        }
+      />
+
+     
       <Testimonial
         heading={<>About <HighlightedText>Us</HighlightedText></>}
       />
